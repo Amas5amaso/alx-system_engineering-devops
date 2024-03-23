@@ -1,11 +1,11 @@
 #!/usr/bin/pup
-# Define a resource class for managing pip packages
-class { 'pip3' : }
+class { 'python': ez_setup => true }
 
-# Define a resource to install Flask 2.1.0
-resource  { 'pip3::package' {
-  name      => 'Flask'
-  ensure    => '2.1.0'
-  provider  => 'pip3'
-}
+package { 'python3-pip': ensure => installed }
+
+package { 'flask':
+  ensure => installed,
+  provider => 'pipx',
+  require => [ Class['python'], Package['python3-pip'] ],
+  install_options => [ { '--version' => '2.1.0' } ],
 }
