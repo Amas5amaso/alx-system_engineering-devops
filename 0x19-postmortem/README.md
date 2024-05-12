@@ -1,6 +1,6 @@
-Server Outage Incident report
+Server Outage Incident report(Web-01)
 
-Repoter:
+Reporter:
 Anson Amakiri Amatemeso
 
 
@@ -21,7 +21,7 @@ Timeline:
 | 10:15AM | Rollback initiation begins |
 | 10:20 AM | Successful rollback|
 | 10:20AM | Server restart initiated|
-| 10:22AM | 100% of traffic back online|
+| 10:22AM | 100% of traffic back onlineI
 
 Root Cause:
 (https://blog.systemsengineering.com/hs-fs/hubfs/blog-files/Root%20Cause.jpg?width=600&name=Root%20Cause.jpg)
