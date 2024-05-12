@@ -1,5 +1,8 @@
 Server Outage Incident report
 
+Repoter:
+Anson Amakiri Amatemeso
+
 
 May 12, 2024, we experienced server outage on all our server infrastructure which resulted in our clients inability to use our services and we sincerely apologise for the financial loss our clients have incurred during this period.
 
@@ -18,7 +21,7 @@ Timeline:
 | 10:15AM | Rollback initiation begins |
 | 10:20 AM | Successful rollback|
 | 10:20AM | Server restart initiated|
-| 10:22AM | 100% of traffic back onlineI
+| 10:22AM | 100% of traffic back online|
 
 Root Cause:
 (https://blog.systemsengineering.com/hs-fs/hubfs/blog-files/Root%20Cause.jpg?width=600&name=Root%20Cause.jpg)
